@@ -1,6 +1,8 @@
 # User-Role-Auth
 
 - Run the main function in Application.Class to start the HTTP server.
+## Requirement
+- Do not use any web frameworks like Spring, Spring-boot, Jersey or else.
 ## API
 
 * Create user
