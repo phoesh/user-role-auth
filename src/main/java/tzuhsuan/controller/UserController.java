@@ -76,7 +76,7 @@ public class UserController {
         return new Response<>().setToast("Create the user successfully.");
     }
 
-    @RequestMapping(endpoint = "/user/delete_user", method = "POST")
+    @RequestMapping(endpoint = "/user/delete", method = "POST")
     public Response deleteUser(String request) throws IOException {
         Map<String, Object> requestMap = JSONUtil.jsonToMap(request);
         Response response = new Response();
